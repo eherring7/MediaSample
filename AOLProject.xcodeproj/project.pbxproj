@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EA642381E8D1BBD009CBF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA642371E8D1BBD009CBF2A /* AppDelegate.swift */; };
+		0EA6423D1E8D1BBD009CBF2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA6423B1E8D1BBD009CBF2A /* Main.storyboard */; };
+		0EA6423F1E8D1BBD009CBF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA6423E1E8D1BBD009CBF2A /* Assets.xcassets */; };
+		0EA642421E8D1BBD009CBF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA642401E8D1BBD009CBF2A /* LaunchScreen.storyboard */; };
+		0EA6424D1E8D1BBD009CBF2A /* AOLProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6424C1E8D1BBD009CBF2A /* AOLProjectTests.swift */; };
+		0EA642581E8D1BBD009CBF2A /* AOLProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA642571E8D1BBD009CBF2A /* AOLProjectUITests.swift */; };
+		0EA642691E8D28F2009CBF2A /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA642681E8D28F2009CBF2A /* VideoData.swift */; };
+		0EA6426B1E8D3326009CBF2A /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6426A1E8D3326009CBF2A /* VideoTableViewController.swift */; };
+		0EA6426D1E8D3450009CBF2A /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6426C1E8D3450009CBF2A /* VideoTableViewCell.swift */; };
+		0EA642711E8D37AB009CBF2A /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EA642701E8D37AB009CBF2A /* placeholder.png */; };
+		0EA642761E8D70FE009CBF2A /* infoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EA642751E8D70FE009CBF2A /* infoButton.png */; };
+		29124F673BB4E461230FDCFD /* Pods_AOLProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F353E2C0859309671CFCEFE /* Pods_AOLProjectTests.framework */; };
+		6167D468B0F2A25B5DE35A86 /* Pods_AOLProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F303E297DD69E415BFD4A8A9 /* Pods_AOLProject.framework */; };
+		ADDEE5A7D3721E78FE7F6003 /* Pods_AOLProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C310F44843C9B84B5D88FADD /* Pods_AOLProjectUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EA642491E8D1BBD009CBF2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EA6422C1E8D1BBD009CBF2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EA642331E8D1BBD009CBF2A;
+			remoteInfo = AOLProject;
+		};
+		0EA642541E8D1BBD009CBF2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EA6422C1E8D1BBD009CBF2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EA642331E8D1BBD009CBF2A;
+			remoteInfo = AOLProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EA642341E8D1BBD009CBF2A /* AOLProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOLProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA642371E8D1BBD009CBF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EA6423C1E8D1BBD009CBF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EA6423E1E8D1BBD009CBF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EA642411E8D1BBD009CBF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EA642431E8D1BBD009CBF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA642481E8D1BBD009CBF2A /* AOLProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOLProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA6424C1E8D1BBD009CBF2A /* AOLProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOLProjectTests.swift; sourceTree = "<group>"; };
+		0EA6424E1E8D1BBD009CBF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA642531E8D1BBD009CBF2A /* AOLProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOLProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA642571E8D1BBD009CBF2A /* AOLProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOLProjectUITests.swift; sourceTree = "<group>"; };
+		0EA642591E8D1BBD009CBF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA642681E8D28F2009CBF2A /* VideoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoData.swift; sourceTree = "<group>"; };
+		0EA6426A1E8D3326009CBF2A /* VideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
+		0EA6426C1E8D3450009CBF2A /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		0EA642701E8D37AB009CBF2A /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		0EA642751E8D70FE009CBF2A /* infoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoButton.png; sourceTree = "<group>"; };
+		122F44839385D70B4B72AB3B /* Pods-AOLProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOLProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AOLProjectUITests/Pods-AOLProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F0762B40B1708CF4954F1D1 /* Pods-AOLProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOLProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AOLProject/Pods-AOLProject.debug.xcconfig"; sourceTree = "<group>"; };
+		6F353E2C0859309671CFCEFE /* Pods_AOLProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AOLProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC8A78A624EEFFA17F5F24E /* Pods-AOLProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOLProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AOLProjectUITests/Pods-AOLProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B176ACC748728AEA0595221C /* Pods-AOLProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOLProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-AOLProject/Pods-AOLProject.release.xcconfig"; sourceTree = "<group>"; };
+		B1C67CAA0FD962818A66C04A /* Pods-AOLProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOLProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AOLProjectTests/Pods-AOLProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		C310F44843C9B84B5D88FADD /* Pods_AOLProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AOLProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEBFB4A2256B4686846D42F /* Pods-AOLProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOLProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AOLProjectTests/Pods-AOLProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F303E297DD69E415BFD4A8A9 /* Pods_AOLProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AOLProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EA642311E8D1BBD009CBF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6167D468B0F2A25B5DE35A86 /* Pods_AOLProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA642451E8D1BBD009CBF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29124F673BB4E461230FDCFD /* Pods_AOLProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA642501E8D1BBD009CBF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDEE5A7D3721E78FE7F6003 /* Pods_AOLProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022FF8B1071C07EC54D3C0C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F0762B40B1708CF4954F1D1 /* Pods-AOLProject.debug.xcconfig */,
+				B176ACC748728AEA0595221C /* Pods-AOLProject.release.xcconfig */,
+				EDEBFB4A2256B4686846D42F /* Pods-AOLProjectTests.debug.xcconfig */,
+				B1C67CAA0FD962818A66C04A /* Pods-AOLProjectTests.release.xcconfig */,
+				9DC8A78A624EEFFA17F5F24E /* Pods-AOLProjectUITests.debug.xcconfig */,
+				122F44839385D70B4B72AB3B /* Pods-AOLProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0EA6422B1E8D1BBD009CBF2A = {
+			isa = PBXGroup;
+			children = (
+				0EA642361E8D1BBD009CBF2A /* AOLProject */,
+				0EA6424B1E8D1BBD009CBF2A /* AOLProjectTests */,
+				0EA642561E8D1BBD009CBF2A /* AOLProjectUITests */,
+				0EA642351E8D1BBD009CBF2A /* Products */,
+				022FF8B1071C07EC54D3C0C9 /* Pods */,
+				CF5E21D095A35C6906CB7802 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0EA642351E8D1BBD009CBF2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EA642341E8D1BBD009CBF2A /* AOLProject.app */,
+				0EA642481E8D1BBD009CBF2A /* AOLProjectTests.xctest */,
+				0EA642531E8D1BBD009CBF2A /* AOLProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EA642361E8D1BBD009CBF2A /* AOLProject */ = {
+			isa = PBXGroup;
+			children = (
+				0EA642721E8D4B47009CBF2A /* Views */,
+				0EA6426E1E8D346F009CBF2A /* Cells */,
+				0EA642651E8D2707009CBF2A /* Data */,
+				0EA642371E8D1BBD009CBF2A /* AppDelegate.swift */,
+				0EA6423B1E8D1BBD009CBF2A /* Main.storyboard */,
+				0EA6423E1E8D1BBD009CBF2A /* Assets.xcassets */,
+				0EA642401E8D1BBD009CBF2A /* LaunchScreen.storyboard */,
+				0EA642431E8D1BBD009CBF2A /* Info.plist */,
+				0EA6426F1E8D3799009CBF2A /* Resources */,
+			);
+			path = AOLProject;
+			sourceTree = "<group>";
+		};
+		0EA6424B1E8D1BBD009CBF2A /* AOLProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EA6424C1E8D1BBD009CBF2A /* AOLProjectTests.swift */,
+				0EA6424E1E8D1BBD009CBF2A /* Info.plist */,
+			);
+			path = AOLProjectTests;
+			sourceTree = "<group>";
+		};
+		0EA642561E8D1BBD009CBF2A /* AOLProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EA642571E8D1BBD009CBF2A /* AOLProjectUITests.swift */,
+				0EA642591E8D1BBD009CBF2A /* Info.plist */,
+			);
+			path = AOLProjectUITests;
+			sourceTree = "<group>";
+		};
+		0EA642651E8D2707009CBF2A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0EA642681E8D28F2009CBF2A /* VideoData.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		0EA6426E1E8D346F009CBF2A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0EA6426C1E8D3450009CBF2A /* VideoTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		0EA6426F1E8D3799009CBF2A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0EA642751E8D70FE009CBF2A /* infoButton.png */,
+				0EA642701E8D37AB009CBF2A /* placeholder.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0EA642721E8D4B47009CBF2A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0EA6426A1E8D3326009CBF2A /* VideoTableViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CF5E21D095A35C6906CB7802 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F303E297DD69E415BFD4A8A9 /* Pods_AOLProject.framework */,
+				6F353E2C0859309671CFCEFE /* Pods_AOLProjectTests.framework */,
+				C310F44843C9B84B5D88FADD /* Pods_AOLProjectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EA642331E8D1BBD009CBF2A /* AOLProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA6425C1E8D1BBD009CBF2A /* Build configuration list for PBXNativeTarget "AOLProject" */;
+			buildPhases = (
+				E3DC6ACC894DD661432B885A /* [CP] Check Pods Manifest.lock */,
+				0EA642301E8D1BBD009CBF2A /* Sources */,
+				0EA642311E8D1BBD009CBF2A /* Frameworks */,
+				0EA642321E8D1BBD009CBF2A /* Resources */,
+				AC123CFCC0E76A56D26C6733 /* [CP] Embed Pods Frameworks */,
+				619EFC33A3AFA015328478AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AOLProject;
+			productName = AOLProject;
+			productReference = 0EA642341E8D1BBD009CBF2A /* AOLProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EA642471E8D1BBD009CBF2A /* AOLProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA6425F1E8D1BBD009CBF2A /* Build configuration list for PBXNativeTarget "AOLProjectTests" */;
+			buildPhases = (
+				D00D0F6C7A80BC3207B3ED14 /* [CP] Check Pods Manifest.lock */,
+				0EA642441E8D1BBD009CBF2A /* Sources */,
+				0EA642451E8D1BBD009CBF2A /* Frameworks */,
+				0EA642461E8D1BBD009CBF2A /* Resources */,
+				40E01654AFC78027DECA791A /* [CP] Embed Pods Frameworks */,
+				5FAD452504E1E8D5DB59B450 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EA6424A1E8D1BBD009CBF2A /* PBXTargetDependency */,
+			);
+			name = AOLProjectTests;
+			productName = AOLProjectTests;
+			productReference = 0EA642481E8D1BBD009CBF2A /* AOLProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0EA642521E8D1BBD009CBF2A /* AOLProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA642621E8D1BBD009CBF2A /* Build configuration list for PBXNativeTarget "AOLProjectUITests" */;
+			buildPhases = (
+				2888F1A63B1E1E3DD291A4E1 /* [CP] Check Pods Manifest.lock */,
+				0EA6424F1E8D1BBD009CBF2A /* Sources */,
+				0EA642501E8D1BBD009CBF2A /* Frameworks */,
+				0EA642511E8D1BBD009CBF2A /* Resources */,
+				E2858BCC93481486FC5200BA /* [CP] Embed Pods Frameworks */,
+				E6A6A61FC1CE8C1095B5C14D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EA642551E8D1BBD009CBF2A /* PBXTargetDependency */,
+			);
+			name = AOLProjectUITests;
+			productName = AOLProjectUITests;
+			productReference = 0EA642531E8D1BBD009CBF2A /* AOLProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EA6422C1E8D1BBD009CBF2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = EKJ;
+				TargetAttributes = {
+					0EA642331E8D1BBD009CBF2A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U5E45XFYJA;
+						ProvisioningStyle = Automatic;
+					};
+					0EA642471E8D1BBD009CBF2A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U5E45XFYJA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0EA642331E8D1BBD009CBF2A;
+					};
+					0EA642521E8D1BBD009CBF2A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U5E45XFYJA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0EA642331E8D1BBD009CBF2A;
+					};
+				};
+			};
+			buildConfigurationList = 0EA6422F1E8D1BBD009CBF2A /* Build configuration list for PBXProject "AOLProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EA6422B1E8D1BBD009CBF2A;
+			productRefGroup = 0EA642351E8D1BBD009CBF2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EA642331E8D1BBD009CBF2A /* AOLProject */,
+				0EA642471E8D1BBD009CBF2A /* AOLProjectTests */,
+				0EA642521E8D1BBD009CBF2A /* AOLProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EA642321E8D1BBD009CBF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA642421E8D1BBD009CBF2A /* LaunchScreen.storyboard in Resources */,
+				0EA642711E8D37AB009CBF2A /* placeholder.png in Resources */,
+				0EA6423F1E8D1BBD009CBF2A /* Assets.xcassets in Resources */,
+				0EA642761E8D70FE009CBF2A /* infoButton.png in Resources */,
+				0EA6423D1E8D1BBD009CBF2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA642461E8D1BBD009CBF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA642511E8D1BBD009CBF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2888F1A63B1E1E3DD291A4E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40E01654AFC78027DECA791A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AOLProjectTests/Pods-AOLProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FAD452504E1E8D5DB59B450 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AOLProjectTests/Pods-AOLProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		619EFC33A3AFA015328478AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AOLProject/Pods-AOLProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC123CFCC0E76A56D26C6733 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AOLProject/Pods-AOLProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D00D0F6C7A80BC3207B3ED14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2858BCC93481486FC5200BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AOLProjectUITests/Pods-AOLProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3DC6ACC894DD661432B885A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6A6A61FC1CE8C1095B5C14D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AOLProjectUITests/Pods-AOLProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EA642301E8D1BBD009CBF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA642381E8D1BBD009CBF2A /* AppDelegate.swift in Sources */,
+				0EA642691E8D28F2009CBF2A /* VideoData.swift in Sources */,
+				0EA6426B1E8D3326009CBF2A /* VideoTableViewController.swift in Sources */,
+				0EA6426D1E8D3450009CBF2A /* VideoTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA642441E8D1BBD009CBF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA6424D1E8D1BBD009CBF2A /* AOLProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA6424F1E8D1BBD009CBF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA642581E8D1BBD009CBF2A /* AOLProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EA6424A1E8D1BBD009CBF2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EA642331E8D1BBD009CBF2A /* AOLProject */;
+			targetProxy = 0EA642491E8D1BBD009CBF2A /* PBXContainerItemProxy */;
+		};
+		0EA642551E8D1BBD009CBF2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EA642331E8D1BBD009CBF2A /* AOLProject */;
+			targetProxy = 0EA642541E8D1BBD009CBF2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EA6423B1E8D1BBD009CBF2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EA6423C1E8D1BBD009CBF2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EA642401E8D1BBD009CBF2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EA642411E8D1BBD009CBF2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EA6425A1E8D1BBD009CBF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EA6425B1E8D1BBD009CBF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EA6425D1E8D1BBD009CBF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0762B40B1708CF4954F1D1 /* Pods-AOLProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U5E45XFYJA;
+				INFOPLIST_FILE = AOLProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekj.ekjapps.AOLProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0EA6425E1E8D1BBD009CBF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B176ACC748728AEA0595221C /* Pods-AOLProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U5E45XFYJA;
+				INFOPLIST_FILE = AOLProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekj.ekjapps.AOLProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0EA642601E8D1BBD009CBF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDEBFB4A2256B4686846D42F /* Pods-AOLProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U5E45XFYJA;
+				INFOPLIST_FILE = AOLProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekj.ekjapps.AOLProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AOLProject.app/AOLProject";
+			};
+			name = Debug;
+		};
+		0EA642611E8D1BBD009CBF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C67CAA0FD962818A66C04A /* Pods-AOLProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U5E45XFYJA;
+				INFOPLIST_FILE = AOLProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekj.ekjapps.AOLProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AOLProject.app/AOLProject";
+			};
+			name = Release;
+		};
+		0EA642631E8D1BBD009CBF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC8A78A624EEFFA17F5F24E /* Pods-AOLProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U5E45XFYJA;
+				INFOPLIST_FILE = AOLProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekj.ekjapps.AOLProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AOLProject;
+			};
+			name = Debug;
+		};
+		0EA642641E8D1BBD009CBF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122F44839385D70B4B72AB3B /* Pods-AOLProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U5E45XFYJA;
+				INFOPLIST_FILE = AOLProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekj.ekjapps.AOLProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AOLProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EA6422F1E8D1BBD009CBF2A /* Build configuration list for PBXProject "AOLProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA6425A1E8D1BBD009CBF2A /* Debug */,
+				0EA6425B1E8D1BBD009CBF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EA6425C1E8D1BBD009CBF2A /* Build configuration list for PBXNativeTarget "AOLProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA6425D1E8D1BBD009CBF2A /* Debug */,
+				0EA6425E1E8D1BBD009CBF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EA6425F1E8D1BBD009CBF2A /* Build configuration list for PBXNativeTarget "AOLProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA642601E8D1BBD009CBF2A /* Debug */,
+				0EA642611E8D1BBD009CBF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EA642621E8D1BBD009CBF2A /* Build configuration list for PBXNativeTarget "AOLProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA642631E8D1BBD009CBF2A /* Debug */,
+				0EA642641E8D1BBD009CBF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EA6422C1E8D1BBD009CBF2A /* Project object */;
+}
